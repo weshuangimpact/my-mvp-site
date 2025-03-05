@@ -10,3 +10,19 @@
     <p>這是我的第一個 GitHub Pages 網站。</p>
 </body>
 </html>
+<!-- 這裡是你的現有 HTML 內容 -->
+<h1>歡迎來到我的 MVP 網站</h1>
+<p>這是一個測試頁面</p>
+
+<!-- 新增分析功能 -->
+<h2>募資頁面分析工具</h2>
+<textarea id="fundingContent" rows="10" cols="50" placeholder="請貼上募資頁面內容"></textarea>
+<br>
+<button onclick="analyzePage()">分析</button>
+<h3>改善建議：</h3>
+<p id="analysisResult"></p>
+
+<!-- 如果已有 <script>，將這段 JavaScript 合併 -->
+<script>
+    async function analyzePage() {
+        const userInput = document.getElementByI
